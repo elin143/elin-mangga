@@ -37,4 +37,4 @@ Route::post('question/store', [QuestionController::class, 'store'])
     ->name('question.store');
 
 Route::get('/dashboard', [DashboardController::class, 'index'])
-    ->name('dashboard');;
+    ->name('Dashboard');;
