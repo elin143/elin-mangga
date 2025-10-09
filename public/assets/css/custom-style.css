@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'elin';
+    src: url('assets/fonts/fontBBH.ttf');
+}
+
+.font-elin{
+    font-family: 'elin';
+}
