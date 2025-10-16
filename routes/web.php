@@ -1,10 +1,11 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\QuestionController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MahasiswaController;
+use App\Http\Controllers\PelangganController;
 use SebastianBergmann\CodeCoverage\Report\Html\Dashboard;
 
 Route::get('/', function () {
@@ -37,4 +38,12 @@ Route::post('question/store', [QuestionController::class, 'store'])
     ->name('question.store');
 
 Route::get('/dashboard', [DashboardController::class, 'index'])
-    ->name('Dashboard');;
+    ->name('dashboard');
+
+Route::resource('pelanggan', PelangganController::class);
+
+Route::get('/pelanggan', [PelangganController::class, 'index'])->name('pelanggan.index');
+
+Route::get('/pelanggan', [PelangganController::class, 'edit'])->name('pelanggan.edit');
+
+
