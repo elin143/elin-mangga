@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\QuestionController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MahasiswaController;
@@ -42,8 +43,4 @@ Route::get('/dashboard', [DashboardController::class, 'index'])
 
 Route::resource('pelanggan', PelangganController::class);
 
-Route::get('/pelanggan', [PelangganController::class, 'index'])->name('pelanggan.index');
-
-Route::get('/pelanggan', [PelangganController::class, 'edit'])->name('pelanggan.edit');
-
-
+Route::resource('user', UserController::class);

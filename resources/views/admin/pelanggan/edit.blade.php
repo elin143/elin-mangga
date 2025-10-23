@@ -18,6 +18,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+{{-- start header --}}
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <!-- Primary Meta Tags -->
@@ -41,6 +42,7 @@
     <link type="text/css" href="{{ asset('assets-admin/css/volt.css') }}" rel="stylesheet">
 
 </head>
+{{-- end header --}}
 
 <body>
     <nav class="navbar navbar-dark navbar-theme-primary px-4 col-12 d-lg-none">
@@ -433,12 +435,13 @@
                                 </div>
                             </div>
                         </form>
+
                     </div>
 
                 </div>
             </div>
         </div>
-
+{{-- start footer --}}
         <footer class="bg-white rounded shadow p-5 mb-4 mt-4">
             <div class="row">
                 <div class="col-12 col-md-4 col-xl-6 mb-4 mb-md-0">
@@ -465,6 +468,7 @@
                 </div>
             </div>
         </footer>
+{{-- end footer --}}
     </main>
 
     <!-- Core -->

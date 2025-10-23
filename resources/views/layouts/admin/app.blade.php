@@ -1,7 +1,19 @@
 
 <!DOCTYPE html>
 <html lang="en">
+{{-- startcss --}}
+@include('layouts.admin.app')
+{{-- endcss --}}
+<body>
+{{-- startheader --}}
+@include('layouts.admin.header')
+{{-- endheader --}}
 
+{{-- startsidebar --}}
+@include('layouts.sidebar.js')
+{{-- endsidebar --}}
+
+{{-- startmaincontent --}}
     <main class="content">
       <div class="py-4">
             <nav aria-label="breadcrumb" class="d-none d-md-inline-block">
@@ -98,9 +110,7 @@
                 </div>
             </div>
         </div>
-
     </main>
-
 {{-- end main content --}}
 
 </body>
