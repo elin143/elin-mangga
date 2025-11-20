@@ -114,53 +114,37 @@
                         <span class="sidebar-text">Dashboard</span>
                     </a>
                 </li>
-                <li class="nav-item  active ">
-                    <a href="" class="nav-link">
+
+                <li role="separator" class="dropdown-divider mt-4 mb-3 border-gray-700"></li>
+                <li class="nav-item">
+                    <a href="https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/"
+                        target="_blank" class="nav-link d-flex align-items-center">
                         <span class="sidebar-icon">
-                            <svg class="icon icon-xs me-2" data-slot="icon" fill="none" stroke-width="1.5"
-                                stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"
-                                aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z">
-                                </path>
+                            <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                                    clip-rule="evenodd"></path>
                             </svg>
                         </span>
-                        <span class="sidebar-text">Pelanggan</span>
+                        <span class="sidebar-text">Documentation <span
+                                class="badge badge-sm bg-secondary ms-1 text-gray-800">v1.4</span></span>
                     </a>
                 </li>
-
-                ...
-            </ul>
-            <li role="separator" class="dropdown-divider mt-4 mb-3 border-gray-700"></li>
-            <li class="nav-item">
-                <a href="https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/"
-                    target="_blank" class="nav-link d-flex align-items-center">
-                    <span class="sidebar-icon">
-                        <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </span>
-                    <span class="sidebar-text">Documentation <span
-                            class="badge badge-sm bg-secondary ms-1 text-gray-800">v1.4</span></span>
-                </a>
-            </li>
-            <li class="nav-item">
-                <a href="../../pages/upgrade-to-pro.html"
-                    class="btn btn-secondary d-flex align-items-center justify-content-center btn-upgrade-pro">
-                    <span class="sidebar-icon d-inline-flex align-items-center justify-content-center">
-                        <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20"
-                            xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd"
-                                d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
-                                clip-rule="evenodd"></path>
-                        </svg>
-                    </span>
-                    <span>Upgrade to Pro</span>
-                </a>
-            </li>
+                <li class="nav-item">
+                    <a href="../../pages/upgrade-to-pro.html"
+                        class="btn btn-secondary d-flex align-items-center justify-content-center btn-upgrade-pro">
+                        <span class="sidebar-icon d-inline-flex align-items-center justify-content-center">
+                            <svg class="icon icon-xs me-2" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M12.395 2.553a1 1 0 00-1.45-.385c-.345.23-.614.558-.822.88-.214.33-.403.713-.57 1.116-.334.804-.614 1.768-.84 2.734a31.365 31.365 0 00-.613 3.58 2.64 2.64 0 01-.945-1.067c-.328-.68-.398-1.534-.398-2.654A1 1 0 005.05 6.05 6.981 6.981 0 003 11a7 7 0 1011.95-4.95c-.592-.591-.98-.985-1.348-1.467-.363-.476-.724-1.063-1.207-2.03zM12.12 15.12A3 3 0 017 13s.879.5 2.5.5c0-1 .5-4 1.25-4.5.5 1 .786 1.293 1.371 1.879A2.99 2.99 0 0113 13a2.99 2.99 0 01-.879 2.121z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </span>
+                        <span>Upgrade to Pro</span>
+                    </a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -355,7 +339,8 @@
                     <p class="mb-0">Form untuk menambahkan data pelanggan baru.</p>
                 </div>
                 <div>
-                    <a href="" class="btn btn-primary"><i class="far fa-question-circle me-1"></i> Kembali</a>
+                    <a href="{{ route('pelanggan.index') }}" class="btn btn-primary"><i
+                            class="far fa-question-circle me-1"></i> Kembali</a>
                 </div>
             </div>
         </div>
@@ -364,20 +349,20 @@
             <div class="col-12 mb-4">
                 <div class="card border-0 shadow components-section">
                     <div class="card-body">
-                        <form action="{{ route('pelanggan.store') }}" method="POST">
+                        <form action="{{ route('pelanggan.create') }}" method="POST">
                             @csrf
                             <div class="row mb-4">
                                 <div class="col-lg-4 col-sm-6">
                                     <!-- First Name -->
                                     <div class="mb-3">
                                         <label for="first_name" class="form-label">First name</label>
-                                        <input type="text" id="first_name" name="first_name" class="form-control" required>
+                                        <input type="text" id="first_name" class="form-control" required>
                                     </div>
 
                                     <!-- Last Name -->
                                     <div class="mb-3">
                                         <label for="last_name" class="form-label">Last name</label>
-                                        <input type="text" id="last_name" name="last_name" class="form-control" required>
+                                        <input type="text" id="last_name" class="form-control" required>
                                     </div>
                                 </div>
 
@@ -385,7 +370,7 @@
                                     <!-- Birthday -->
                                     <div class="mb-3">
                                         <label for="birthday" class="form-label">Birthday</label>
-                                        <input type="date" id="birthday" name="birthday" class="form-control">
+                                        <input type="date" id="birthday" class="form-control">
                                     </div>
 
                                     <!-- Gender -->
@@ -404,13 +389,13 @@
                                     <!-- Email -->
                                     <div class="mb-3">
                                         <label for="email" class="form-label">Email</label>
-                                        <input type="text" id="email" name="email" class="form-control" required>
+                                        <input type="text" id="email" class="form-control" required>
                                     </div>
 
                                     <!-- Phone -->
                                     <div class="mb-3">
                                         <label for="phone" class="form-label">Phone</label>
-                                        <input type="text" id="phone" name="phone" class="form-control">
+                                        <input type="text" id="phone" class="form-control">
                                     </div>
 
                                     <!-- Buttons -->

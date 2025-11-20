@@ -1,5 +1,5 @@
-@extends('layouts.admin.app')
-@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +24,6 @@
 	<link type="text/css" href="{{asset('assets-admin/css/volt.css')}}" rel="stylesheet">
 
 </head>
-
 <body>
 	<nav class="navbar navbar-dark navbar-theme-primary px-4 col-12 d-lg-none">
 		<a class="navbar-brand me-lg-5" href="../../index.html">
@@ -1191,5 +1190,4 @@
 	<!-- Vendor JS -->
 	<script src="../../vendor/onscreen/dist/on-screen.umd.min.js"></script>
 </body>
-@endsection
 </html>

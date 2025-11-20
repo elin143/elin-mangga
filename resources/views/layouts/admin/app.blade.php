@@ -12,7 +12,9 @@
 {{-- startsidebar --}}
 @include('layouts.sidebar.js')
 {{-- endsidebar --}}
+@include('layouts.admin.css')
 
+@include('layouts.admin.footer')
 {{-- startmaincontent --}}
     <main class="content">
       <div class="py-4">
