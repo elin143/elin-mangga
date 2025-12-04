@@ -1,4 +1,5 @@
-
+@extends('layout-admin.app')
+@section('content')
 
 <!DOCTYPE html>
 <html lang="en">
@@ -1191,3 +1192,4 @@
 	<script src="../../vendor/onscreen/dist/on-screen.umd.min.js"></script>
 </body>
 </html>
+

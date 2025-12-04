@@ -108,7 +108,7 @@
                                                 <td>{{ $item->phone }}</td>
                                                 <td style="max-width: 200px;">
                                                     @php
-                                                        $pelangganFiles = \App\Models\Multipleupload::where(
+                                                        $pelangganFiles =  \App\Models\MultipleUpload::where(
                                                             'ref_table',
                                                             'pelanggan',
                                                         )
